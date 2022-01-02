@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng quan trong 7 ngày"
+        android:textAlignment="center"
+        android:textSize="34dp"
+        android:textColor="#FF0000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="   Ngày"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/overviewTreating2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textSize="16dp"
+            android:text="Điều trị" />
+
+        <TextView
+            android:id="@+id/overviewCases2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginRight="10dp"
+            android:text="Số ca" />
+
+        <TextView
+            android:id="@+id/overviewDeath2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginRight="10dp"
+            android:text="Tử vong" />
+
+        <TextView
+            android:id="@+id/overviewDateRecovered2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginRight="10dp"
+            android:text="Khỏi" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ls_overview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
